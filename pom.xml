@@ -9,10 +9,25 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.vorobey</groupId>
-    <artifactId>QuickEye</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>QuickEye</name>
-    <description>QuickEye</description>
+    <artifactId>TelegramStarter</artifactId>
+    <version>0.10</version>
+    <name>TelegramStarter</name>
+    <url>https://github.com/Vorobeyyyyyy/TelegramStarter</url>
+    <description>TelegramStarter</description>
+    <licenses>
+        <license>
+            <name>The Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <name>Aliaksandr Varabyou</name>
+            <email>mrskilkchat@gmail.com</email>
+            <organization>Vorobeyyyyyy</organization>
+            <organizationUrl>https://github.com/Vorobeyyyyyy</organizationUrl>
+        </developer>
+    </developers>
     <properties>
         <java.version>17</java.version>
     </properties>
