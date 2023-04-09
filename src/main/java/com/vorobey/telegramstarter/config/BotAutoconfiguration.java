@@ -7,11 +7,13 @@ import com.vorobey.telegramstarter.service.UpdateDispatcher;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @RequiredArgsConstructor
 @Slf4j
+@ComponentScan("com.vorobey.telegramstarter")
 public class BotAutoconfiguration {
     private final BotProperty botProperty;
     private final UpdateDispatcher updateDispatcher;
